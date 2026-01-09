@@ -5,7 +5,7 @@ from ultralytics import YOLO
 import os
 
 # ================= LOAD MODEL =================
-MODEL_PATH = r"best.pt"
+MODEL_PATH = "best.pt"
 model = YOLO(MODEL_PATH)
 
 # ================= CONSTANTS =================
