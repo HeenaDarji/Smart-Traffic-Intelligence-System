@@ -5,7 +5,7 @@ from ultralytics import YOLO
 import os
 
 # ================= LOAD MODEL =================
-MODEL_PATH = r"C:\GDG hackthon\runs\detect\train3\weights\best.pt"
+MODEL_PATH = r"best.pt"
 model = YOLO(MODEL_PATH)
 
 # ================= CONSTANTS =================
