@@ -3,9 +3,8 @@ import csv
 from datetime import datetime
 from ultralytics import YOLO
 import os
+MODEL_PATH = os.path.join(BASE_DIR, "best.pt")
 
-# ================= LOAD MODEL =================
-MODEL_PATH = "best.pt"
 model = YOLO(MODEL_PATH)
 
 # ================= CONSTANTS =================
